@@ -13,6 +13,7 @@ import PublicCard from '@/pages/PublicCard'
 import QRCodePage from '@/pages/QRCodePage'
 import NFCManager from '@/pages/NFCManager'
 import EmailSignature from '@/pages/EmailSignature'
+import SocialIntegration from '@/pages/SocialIntegration'
 import LoadingScreen from '@/components/LoadingScreen'
 
 interface User {
@@ -56,6 +57,7 @@ function App() {
               <Route path="/qr-codes" element={<QRCodePage />} />
               <Route path="/nfc" element={<NFCManager />} />
               <Route path="/email-signature" element={<EmailSignature />} />
+              <Route path="/social" element={<SocialIntegration />} />
               <Route path="/settings" element={<ProfileSettings />} />
             </>
           ) : (

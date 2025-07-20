@@ -12,7 +12,8 @@ import {
   LogOut,
   QrCode,
   Smartphone,
-  Mail
+  Mail,
+  Share2
 } from 'lucide-react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import blink from '@/blink/client'
@@ -65,6 +66,11 @@ export default function Navigation() {
       name: 'Email Signature',
       href: '/email-signature',
       icon: Mail
+    },
+    {
+      name: 'Social Media',
+      href: '/social',
+      icon: Share2
     },
     {
       name: 'Settings',

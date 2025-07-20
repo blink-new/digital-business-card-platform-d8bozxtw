@@ -108,6 +108,13 @@ export default function Dashboard() {
       icon: Mail,
       action: () => navigate('/email-signature'),
       color: 'bg-blue-500'
+    },
+    {
+      title: 'Social Media',
+      description: 'Connect social profiles',
+      icon: Share2,
+      action: () => navigate('/social'),
+      color: 'bg-purple-500'
     }
   ]
 
